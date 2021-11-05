@@ -12,7 +12,7 @@ var formSubmitHandler = function(event) {
         getUserRepos(username);
         nameInputEl.value = "";
     } else {
-        alert("PLease enter a Github username");
+        alert("Please enter a Github username");
     }
 };
 
